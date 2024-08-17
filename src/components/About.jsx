@@ -22,15 +22,15 @@ export default function About() {
                     <p className=" mt-[20px]">Lorem ipsum dolor sit amet consectetur.<br/> Elementum nisl duis tortor sed.</p>
                 </li>
                 <li className="flex gap-5 ">
-                    <img src="/src/assets/icons/check.svg"/>
+                    <img src={checkImg}/>
                     <p className="mt-[20px]">Lorem ipsum dolor sit amet consectetur.<br/> Elementum nisl duis tortor sed.</p>
                 </li>
                 <li className="flex gap-5 ">
-                    <img src="/src/assets/icons/check.svg"/>
+                    <img src={checkImg}/>
                     <p className=" mt-[20px]">Lorem ipsum dolor sit amet consectetur.<br/> Elementum nisl duis tortor sed.</p>
                 </li>
                 <li className="flex gap-5 ">
-                    <img src="/src/assets/icons/check.svg"/>
+                    <img src={checkImg}/>
                     <p className=" mt-[20px]">Lorem ipsum dolor sit amet consectetur.<br/> Elementum nisl duis tortor sed.</p>
                 </li>
             </ul>
