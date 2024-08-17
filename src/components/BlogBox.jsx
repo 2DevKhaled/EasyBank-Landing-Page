@@ -1,3 +1,6 @@
+import CurrencyImg from '/src/assets/images/image-currency.jpg';
+import RestaurantImg from '/src/assets/images/image-restaurant.jpg';
+import PlaneImg from '/src/assets/images/image-plane.jpg';
 export default function BlogBox({ img, title, content }) {
   return (
     <div className="w-[367px] mt-6 bg-white rounded-md ">
