@@ -18,6 +18,7 @@ const faqData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate ratione, et maxime maiores itaque! Non ullam eaque libero repellendus.",
   },
 ];
+import imgSide from '/src/assets/images/annie-spratt-vGgn0xLdy8s-unsplash (1).jpg'
 import AccordingBox from "./AccordingBox ";
 export default function Faq() {
   return (
@@ -27,7 +28,7 @@ export default function Faq() {
           <div className="w-[400px] h-[500px]">
             <img
               className="w-full h-full"
-              src="/src/assets/images/annie-spratt-vGgn0xLdy8s-unsplash (1).jpg"
+              src={}
             />
           </div>
           <div>

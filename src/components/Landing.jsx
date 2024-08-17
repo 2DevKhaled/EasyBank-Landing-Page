@@ -1,5 +1,5 @@
 import ButtonCTA from "./ButtonCTA";
-
+import HeroImg from '/src/assets/images/Group 1771.svg';
 export default function Landing() {
   return (
     <section className="py-[150px]">
@@ -25,7 +25,7 @@ export default function Landing() {
         <div className="justify-center mt-5 md:mt-0 hidden md:flex">
           <img
             className="w-[650px] h-[500px]"
-            src="/src/assets/images/Group 1771.svg"
+            src={HeroImg}
           />
         </div>
       </div>

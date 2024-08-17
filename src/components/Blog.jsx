@@ -1,21 +1,24 @@
+import CurrencyImg from '/src/assets/images/image-currency.jpg';
+import RestaurantImg from '/src/assets/images/image-restaurant.jpg';
+import PlaneImg from '/src/assets/images/image-plane.jpg';
 const dataBlog = [
   {
     id: 1,
-    img: "/src/assets/images/image-currency.jpg",
+    img: {CurrencyImg},
     title: "Receive money in any currency with no fees",
     content:
       "The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single ...",
   },
   {
     id: 2,
-    img: "/src/assets/images/image-restaurant.jpg",
+    img:{RestaurantImg},
     title: "Treat yourself without worrying about money",
     content:
       "Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you ...",
   },
   {
     id: 3,
-    img: "/src/assets/images/image-plane.jpg",
+    img: {PlaneImg},
     title: "Take your Easybank card wherever you go",
     content:
       "We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you ...",

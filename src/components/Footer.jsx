@@ -1,4 +1,4 @@
-
+import Logo from '/src/assets/icons/logo.svg'
 import { useState } from "react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 export default function Footer() {
@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="container pt-[150px] pb-[30px]">
         <div className="flex justify-around pt-[30px]">
           <div>
-            <img src="/src/assets/icons/logo.svg" />
+            <img src={Logo} />
           </div>
           <div>
             <ul className="flex gap-[20px] flex-col">

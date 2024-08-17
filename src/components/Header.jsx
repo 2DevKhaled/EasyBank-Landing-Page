@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ButtonCTA from "./ButtonCTA";
-
+import logo from '/src/assets/icons/logo.svg';
 export default function Header() {
   const [navigator, setNavigator] = useState([
     { title: "Home", href: "#home" },
@@ -13,7 +13,7 @@ export default function Header() {
     <header  className="pt-[20px] top-0 z-50 left-0 scroll-smooth">
       <div className="container mx-auto flex justify-between items-center gap-[30px] px-[90px]">
       <a href="" >
-        <img className="w-[250px] " src="/src/assets/icons/logo.svg" />
+        <img className="w-[250px] " src={logo} />
       </a>
       <nav className="flex items-center gap-[80px]">
         <ul className="flex gap-[20px]">
@@ -23,7 +23,7 @@ export default function Header() {
             </li>
           ))}
         </ul>
-      <ButtonCTA>Request Invite</ButtonCTA>
+      <ButtonCTA>Request Inivte</ButtonCTA>
       </nav>
       </div>
     </header>
