@@ -28,7 +28,7 @@ export default function Faq() {
           <div className="w-[400px] h-[500px]">
             <img
               className="w-full h-full"
-              src={}
+              src={imgSide}
             />
           </div>
           <div>
