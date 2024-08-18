@@ -2,7 +2,7 @@ import ButtonCTA from "./ButtonCTA";
 import HeroImg from '/src/assets/images/Group 1771.svg';
 export default function Landing() {
   return (
-    <section className="py-[150px]">
+    <section className="py-[150px] " id="home">
       <div className="container mx-auto block md:flex justify-between">
         <div className="flex flex-col pl-[80px] ">
           <div className=" text-white font-medium text-[65px]  leading-normal mt-10">

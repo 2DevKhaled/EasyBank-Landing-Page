@@ -5,9 +5,9 @@ export default function Header() {
   const [navigator, setNavigator] = useState([
     { title: "Home", href: "#home" },
     { title: "About", href: "#about" },
-    { title: "Mission", href: "" },
-    { title: "Blog", href: "" },
-    { title: "FAQ", href: "" },
+    { title: "Mission", href: "#mission" },
+    { title: "Blog", href: "#blog" },
+    { title: "FAQ", href: "#faq" },
   ]);
   return (
     <header  className="pt-[20px] top-0 z-50 left-0 scroll-smooth">

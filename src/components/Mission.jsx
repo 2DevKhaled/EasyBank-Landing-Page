@@ -1,6 +1,6 @@
 export default function Mission() {
   return (
-    <section className="py-[100px]">
+    <section className="py-[100px]" id="mission">
       <div className="container mx-auto">
         <div className="flex justify-center flex-col w-[1042px] max-w-full mx-auto">
           <div>

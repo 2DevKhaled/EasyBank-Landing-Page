@@ -22,7 +22,7 @@ import imgSide from '/src/assets/images/annie-spratt-vGgn0xLdy8s-unsplash (1).jp
 import AccordingBox from "./AccordingBox ";
 export default function Faq() {
   return (
-    <section className="py-[100px]">
+    <section className="py-[100px]" id='faq'>
       <div className="container mx-auto">
         <div className="flex justify-center gap-[150px] ">
           <div className="w-[400px] h-[500px]">
